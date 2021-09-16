@@ -1,3 +1,25 @@
-# web-platform-ps6ttp
+# Xoshia Page a Homepage for kurdish Clip, music or entertainment
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-ps6ttp)
+# Header1
+
+geh zum Bild [here](#bild)
+
+### Description
+>uasd
+##### asd
+##### asd
+#####
+
+[Xoshia](#xoshia-page-a-homepage-for-kurdish-clips-music-or-entertainment)
+
+```
+git status
+git add
+git commit
+```
+
+# Bild
+![image](https://myoctocat.com/assets/images/base-octocat.svg)
+
+[Contribution guidelines for this project](me.html)
+
