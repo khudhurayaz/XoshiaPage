@@ -2,19 +2,43 @@
 
 <head>
   <meta charset="UTF-8">
-  <script src="script.js"></script>
-  <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+  <title>XoshiaPage - Home</title>
+  <!-- Stylesheet -->
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> 
+  <meta name="author" content="Ayaz Khudhur">
+  <meta name="keywords" content="Clip, music, pic, social media, instagram, facebook">
+  <meta name="description" content="Xoshia Page a Homepage for kurdish Clip, music or entertainment">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 
 <body>
-  <h1>Hello there!</h1>
-  <form action="/assets/php/s/login.php" method="POST">
-    Username <input name="username" type="text" placeholder="enter your username"/> <br>
-      Password <input name="password"  type="password" placeholder="enter your password"/> <br>
-    <input type="submit" name="submit" value="Login">
-  </form>
-  <a href="/me.html">My other page</a> <br/>
-  <a href="/assets/php/s/login.php">Go to Login</a>
-</body>
 
+  <div class="container animate__animated animate__zoomIn">
+    <div class="content">
+      <div class="content_home">
+        <div class="content_home_nav">
+          <nav>
+            <ul>
+              <li> <a href="#home">HOME</a> </li>
+              <li> <a href="#clip">CLIP</a> </li>
+              <li> <a href="#music">MUSIC</a> </li>
+              <li> <a href="#createAAccount">CREATE A ACCOUNT</a> </li>
+              <li> <a href="#login">LOGIN</a> </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="content_home_pic">
+          <img src="./assets/images/logo.jpg" alt="random images">
+        </div>
+      </div>
+      <form action="./assets/php/user/login.php" method="POST">
+        Username <input name="username" type="text" placeholder="enter your username"/> <br>
+          Password <input name="password"  type="password" placeholder="enter your password"/> <br>
+        <input type="submit" name="submit" value="Login">
+      </form>
+    </div>
+  </div>
+
+</body>
 </html>
